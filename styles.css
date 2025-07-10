@@ -84,3 +84,36 @@ nav li a{
 .btn{
     margin-bottom: 152px;
 }
+
+/* action */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 160px 0 140px;
+    margin-top: 116px;
+}
+
+.action-content{
+    max-width: 517px;
+    gap: 23px;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.action-des{
+    color: rgb(37, 36, 50, 50%);
+    font-weight: 400;
+    font-size: 24px;
+}
+.action-img{
+    width: 403px;
+    border-radius: 48px;
+}
+
+/* main */
+/* main{
+    max-width: 1140px;
+    margin: 0 auto;
+} */
