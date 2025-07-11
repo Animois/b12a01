@@ -16,14 +16,22 @@
     font-style: normal;
   }
 
-
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
   /* header */
   .header {
     background-image: url(/assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
   }
 /* Nav Style */
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 1140px;
     margin: auto;
   }
@@ -59,7 +67,10 @@ nav li a{
     border : none;
     cursor: pointer;
 }
-
+.btn-primary:hover{
+    background-color: #e7b733;
+  color: #20201f;
+}
 /* banner styles */
 .banner{
     display: flex;
@@ -67,8 +78,6 @@ nav li a{
     align-items: center;
     height: 60vh;
     text-align: center;
-    
-    
 }
 .banner-title{
     font-size: 65px;
@@ -89,11 +98,12 @@ nav li a{
 .action{
     display: flex;
     justify-content: space-between;
-    margin: 0 160px 0 145px;
-    margin-top: 116px;
+    margin: 0px 160px 0 145px;
+    
 }
 
 .action-content{
+   margin-top: 116px;
     max-width: 517px;
     gap: 23px;
 }
@@ -108,6 +118,7 @@ nav li a{
     font-size: 24px;
 }
 .action-img{
+    margin-top: 116px;
     width: 403px;
     border-radius: 48px;
 }
@@ -117,6 +128,9 @@ nav li a{
     max-width: 1140px;
     margin: 0 auto;
 }  */
+  main{
+    background-color: rgb(242, 237, 237, 50%);
+  }
 
 /* user section */
 .user{
@@ -157,6 +171,7 @@ nav li a{
 /* review section */
 .review{
     margin: 137px 151px 0 150px;
+    background-color: #ffffff;
 }
 
 .review-title{
@@ -164,10 +179,12 @@ nav li a{
     font-size: 42px;
     color: #252432;
     text-align: center;
+    background-color: rgb(242, 237, 237, 50%);
 }
 .review-cards{
     display: flex;
     gap: 70px;
+    
 }
 .card-footer{
     display: flex;
@@ -188,7 +205,7 @@ nav li a{
 .footer-img{
     border-radius: 9999;
     size: large;
-    shape-outside: circle();
+    
 }
 .card{
     box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 25%);
@@ -228,4 +245,110 @@ nav li a{
 }
 .li-2{
     color: #B3B3B3;
+}
+/* ban-2 */
+.ban-2{
+    text-align: center;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    margin-top: 137px;
+    margin-left: 151px;
+    margin-right: 150px;
+}
+.ban-2-cont{
+    border-radius: 48px;
+    margin-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 71px;
+}
+.ban-2-head{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 71px;
+}
+.ban-2-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 0, 0, 50%);
+}
+
+/* get in touch */
+.form{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+    gap: 100px;
+    display: flex;
+}
+
+.form-column{
+    width: 50%;
+}
+.form-section-title{
+    font-weight: bold;
+    font-size: 97px;
+    color: #000000;
+}
+
+.form input[type="text"], .form input[type="email"]{
+    height: 70px;
+    border-radius: 10px;
+    display: block;
+    background-color: #FFFFFF;
+    width: 497px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.form textarea{
+    height: 135px;
+    border-radius: 10px;
+    display: block;
+    background-color: #FFFFFF;
+    width: 497px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.form-text{
+    font-size: 18px;
+    font-weight: 500;
+}
+.form-btn{
+    width: 520px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+/* footer */
+.footer{
+    margin-bottom: 105px;
+    margin-top: 105px;
+    margin-left: 450px;
+    margin-right: 455px;
+    text-align: center;
+    
+}
+.footer-title{
+    font-size: 100px;
+    font-weight: black;
+    color: #4E47FF;
+    margin-bottom: 0%;
+}
+.footer-des{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+}
+.footer-foot{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.footer-foot-title{
+    gap: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
 }
